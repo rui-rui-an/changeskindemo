@@ -22,29 +22,29 @@ export default {
   data () {
     return {
       value: '',
-      options: [{
-        value: '#0094ff',
-        label: '蓝色'
-      }, {
-        value: 'green',
-        label: '绿色'
-      }, {
-        value: 'skyblue',
-        label: '天蓝色'
-      }, {
-        value: '#006584',
-        label: '颜色4'
-      }, {
-        value: '#0082cc',
-        label: '颜色5'
-      }]
+      // options: [{
+      //   value: '#0094ff',
+      //   label: '蓝色'
+      // }, {
+      //   value: 'green',
+      //   label: '绿色'
+      // }, {
+      //   value: 'skyblue',
+      //   label: '天蓝色'
+      // }, {
+      //   value: '#006584',
+      //   label: '颜色4'
+      // }, {
+      //   value: '#0082cc',
+      //   label: '颜色5'
+      // }]
     }
   },
   methods: {
-    changeColor (val) {
-      // console.log(val);
-      document.body.style.setProperty('--bgc', val);
-    },
+    // changeColor (val) {
+    //   // console.log(val);
+    //   document.body.style.setProperty('--bgc', val);
+    // },
   }
 }
 </script>
