@@ -20,7 +20,7 @@ export default {
   methods: {
     changeTheme() {
       this.theme = !this.theme;
-      // 调用 `less.modifyVars` 方法来改变变量值
+      // 调用 `less.modifyVars` 方法来改变变量值，但是在ie下使用不了
       window.less.modifyVars(this.theme ? lightTheme : darkTheme);
     }
   },
